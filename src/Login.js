@@ -1,10 +1,89 @@
-import React from 'react';
-import {SafeAreaView, View, Text} from 'react-native';
 
+import React from 'react';
+import {SafeAreaView, View, Text,StyleSheet,Platform,Button, Image } from 'react-native';
+import MyButton from './component/MyButton';
+import MyTextInput from './component/MyTextInput';
 // You can test your code with "npm test" (or "yarn test" if you using yarn)
 
-function Login() {
-  return null;
-}
+function Login() { 
+  return (
+    <SafeAreaView style={ styles.containerBasic}>
+      <View style={ styles.containerBasic}>
+        
+        
+        <View style={ styles.container1}> 
+          <Image  style={styles.logo}source={require('./Image/music.png')}/>
+          <View>
 
+          <Text style={styles.titlee}>2MUSIC</Text> 
+            </View>
+        </View>
+        
+        <View style={ styles.container2}>  
+          <MyTextInput/>   
+        </View>
+      </View> 
+    </SafeAreaView>
+  );
+}
+//`#00bfff`
 export default Login;
+const styles=StyleSheet.create({
+  container2:{
+  //flex:1,
+  backgroundColor:'#003f5c',
+  //flex: 1,
+  //backgroundColor: '#003f5c',
+  //alignItems: 'center',
+  justifyContent: 'center',
+  //flexDirection: 'row',
+   //height: 50, 
+   //marginBottom:100,
+   //margin:60,
+   
+   
+},
+container1:{
+  alignItems: 'center',
+  //flex:1,
+  //flexGrow:1,
+  //backgroundColor:`#f0e68c`
+  //flex: 3,
+  
+  backgroundColor: '#003f5c',
+  justifyContent: 'center',
+  //borderColor:'blue',
+  //borderWidth:1,
+  margin:40,
+  //height: 50,
+  
+  
+  
+  
+},
+containerBasic:{
+  flex: 1,
+  backgroundColor: '#003f5c',  
+  //alignItems: "center",
+  //justifyContent: "center",
+},
+logo: {
+  width: 100,
+  height: 100,
+  
+},
+logoo: {
+  backgroundColor:'red',
+  justifyContent: 'center',
+  flexDirection:'row'
+  
+},
+titlee: {
+  marginTop:10,
+  fontSize:30,
+  color:`#6495ed`,
+  fontFamily:'sans-serif',
+  textAlign:'center'
+  
+},
+})
