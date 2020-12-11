@@ -26,12 +26,7 @@ const styles=StyleSheet.create({
         borderRadius:20,
     },
     input:{
-        //height:40,
-        //backgroundColor:`#ff6347`,
-        //marginBottom:10,
-        //borderRadius:20,
         color: 'black',
-        //paddingHorizontal:10,
         justifyContent: 'center',
         padding:5,
     },

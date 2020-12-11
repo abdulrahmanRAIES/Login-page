@@ -21,14 +21,12 @@ function Login() {
         
         <View style={ styles.container2}>  
           <MyTextInput mytitle="Email..."/> 
-          <MyTextInput mytitle="Password....."/> 
-
+          <MyTextInput mytitle="Password..."/> 
           
         
        <MyButton mytitle="LOG IN"  myColor="#fb5b5a"/>
        <MyButton mytitle="SIGN UP" myColor="#003f5c"/>
-       
-      
+
         </View>
       </View> 
     </SafeAreaView>
@@ -44,28 +42,20 @@ const styles=StyleSheet.create({
 container1:{
   alignItems: 'center',
   justifyContent: 'center',
-  //backgroundColor:'blue',
-
-  margin:40,
-  //marginBottom:10,
-  //marginTop:80,  
+  margin:40, 
 },
 containerBasic:{
   flex: 1,
   backgroundColor: '#003f5c',  
-  //alignItems: "center",
-  //justifyContent: "center",
 },
 logo: {
   width: 100,
-  height: 100,
-  
+  height: 100, 
 },
 logoo: {
   backgroundColor:'red',
   justifyContent: 'center',
   flexDirection:'row'
-  
 },
 titlee: {
   marginTop:10,
@@ -73,6 +63,5 @@ titlee: {
   color:`#6495ed`,
   fontFamily:'sans-serif',
   textAlign:'center'
-  
 },
 })
