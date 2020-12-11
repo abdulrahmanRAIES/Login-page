@@ -1,6 +1,6 @@
 
 import React from 'react';
-import {SafeAreaView, View, Text,StyleSheet,Platform,Button, Image } from 'react-native';
+import {SafeAreaView, View, Text,StyleSheet,Platform,Button, Image,TouchableOpacity } from 'react-native';
 import MyButton from './component/MyButton';
 import MyTextInput from './component/MyTextInput';
 // You can test your code with "npm test" (or "yarn test" if you using yarn)
@@ -20,46 +20,32 @@ function Login() {
         </View>
         
         <View style={ styles.container2}>  
-          <MyTextInput/>   
+          <MyTextInput/> 
+          <MyTextInput/> 
+
+          
+        
+       <MyButton mytitle="LOG IN"  myColor="#fb5b5a"/>
+       <MyButton mytitle="SIGN UP" myColor="#003f5c"/>
+       
+      
         </View>
       </View> 
     </SafeAreaView>
   );
 }
-//`#00bfff`
 export default Login;
 const styles=StyleSheet.create({
   container2:{
-  //flex:1,
   backgroundColor:'#003f5c',
-  //flex: 1,
-  //backgroundColor: '#003f5c',
-  //alignItems: 'center',
   justifyContent: 'center',
-  //flexDirection: 'row',
-   //height: 50, 
-   //marginBottom:100,
-   //margin:60,
-   
    
 },
 container1:{
   alignItems: 'center',
-  //flex:1,
-  //flexGrow:1,
-  //backgroundColor:`#f0e68c`
-  //flex: 3,
-  
-  backgroundColor: '#003f5c',
   justifyContent: 'center',
-  //borderColor:'blue',
-  //borderWidth:1,
-  margin:40,
-  //height: 50,
-  
-  
-  
-  
+
+  margin:40,  
 },
 containerBasic:{
   flex: 1,

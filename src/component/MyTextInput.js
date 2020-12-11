@@ -8,22 +8,8 @@ const MyTextInput=(props)=>{
        onChangeText={(value)=> console.log(value)}  style={styles.input}
        />
 
-       <TextInput  placeholder="Password... "  placeholderTextColor="black"
-       onChangeText={(value)=> console.log(value)}  style={styles.input}/>
-       
-
-       <TouchableOpacity style={styles.button}>
-        <Text style={styles.input1}>Forget Password ?</Text>
-        </TouchableOpacity>
-        
-       <MyButton mytitle="LOG IN"  />
-       
-       
-       <TouchableOpacity style={styles.button}>
-        <Text style={styles.input1}>SIGN UP </Text>
-        </TouchableOpacity>
-
-        </View>
+      
+       </View>
     );
 };
 
