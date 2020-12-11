@@ -37,15 +37,18 @@ function Login() {
 export default Login;
 const styles=StyleSheet.create({
   container2:{
-  backgroundColor:'#003f5c',
+  //backgroundColor:'red',
   justifyContent: 'center',
    
 },
 container1:{
   alignItems: 'center',
   justifyContent: 'center',
+  //backgroundColor:'blue',
 
-  margin:40,  
+  margin:40,
+  //marginBottom:10,
+  //marginTop:80,  
 },
 containerBasic:{
   flex: 1,
