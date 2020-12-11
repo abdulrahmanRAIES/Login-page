@@ -4,7 +4,7 @@ import MyButton from './MyButton';
 const MyTextInput=(props)=>{
     return(
        <View style={styles.container}>
-       <TextInput placeholder="Email... " placeholderTextColor="black" 
+       <TextInput placeholder={props.mytitle} placeholderTextColor="black" 
        onChangeText={(value)=> console.log(value)}  style={styles.input}
        />
 

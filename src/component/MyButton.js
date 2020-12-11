@@ -7,8 +7,6 @@ const MyButton=(props)=>{
         <TouchableOpacity style={[styles.buttonContainer ,{backgroundColor:props.myColor}]} >
         <Text style={styles.input}>{props.mytitle}</Text>
         </TouchableOpacity>
-
-        
         </View>
 
     );

@@ -20,8 +20,8 @@ function Login() {
         </View>
         
         <View style={ styles.container2}>  
-          <MyTextInput/> 
-          <MyTextInput/> 
+          <MyTextInput mytitle="Email..."/> 
+          <MyTextInput mytitle="Password....."/> 
 
           
         
